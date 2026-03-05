@@ -25,13 +25,15 @@ body{
     background-size: 100%;
 }
 header{
-    background-color: darkblue;
+   background: linear-gradient(45deg, darkblue, rgb(107, 133, 226));
     margin: 10px;
     text-align: center;
     padding: 10px;
     color: white;
+    border-radius: 3px;
 
 }
+
 .logo-epicode{
 
     text-align: 100%;
@@ -150,14 +152,18 @@ tr{
     text-align: end;
 }
 footer{
-    background-color: #005566;
+    background: linear-gradient(45deg, rgb(6, 6, 54), rgb(17, 141, 190));
      text-align: center;
      color: white;
       margin: 10px;
     padding: 10px;
+    border-radius: 3px;
 }
 .link-epicode{
     color: #aa2072;
     text-decoration: underline;
     
+}
+.footer-title{
+    margin-bottom: 5em;
 }
